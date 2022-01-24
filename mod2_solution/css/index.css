@@ -2,6 +2,10 @@ h1 {
     text-align: center;
 }
 h2 {
+    margin-left: 70%;
+    text-align: center;
+    position: relative;
+    border: 1px solid;
     color: white;
 }
 div {
@@ -9,6 +13,7 @@ div {
     display:inline-block; 
     height:auto; 
     width: 33%; 
+    background-color: gray;
  }
  .div-chicken {
     background-color: rgb(238, 84, 84); 
@@ -17,14 +22,15 @@ div {
     background-color: rgb(43, 95, 236); 
  }
  .div-sushi {
-    background-color: rgb(105, 21, 126); s
+    background-color: rgb(105, 21, 126); 
  }
 p {
     color: white;
     padding: 5%;
 }
  body { 
-    margin: 0px; padding:0px; 
+    margin: 0px; 
+    padding:0px; 
 }
 img {
     width:70%;
