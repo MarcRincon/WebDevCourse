@@ -43,5 +43,31 @@ img {
     padding-bottom: 5%;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    div {
+        text-align: center;
+        display:inline-block; 
+        height:fit-content; 
+        width: 45%; 
+        background-color: rgb(119, 0, 20);
+     }
+
+     .div-mobile {
+         margin-top: 10px;
+        width: 90%; 
+     }
+}
+
+@media only screen and (max-width: 768px) {
+    div {
+        text-align: center;
+        display:inline-block; 
+        height:fit-content; 
+        width: fit-content; 
+        margin: 10px;
+        background-color: rgb(119, 0, 20);
+     }
+    
+}
  
  
